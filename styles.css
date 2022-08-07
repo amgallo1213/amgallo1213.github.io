@@ -384,11 +384,10 @@ h3,
 
 @media only screen and (max-width: 480px) and (min-width: 320px)  {
   skill {
-    text-size: 0.7rem;
-     padding: 5px;
+    text-size: 0.5rem;
     }
     #projects   {
-        height: 400px;
+        height: auto;
     }
     .item {
     width: calc(94%/1);
