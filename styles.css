@@ -151,7 +151,7 @@ h3,
     font-family: 'Inter', sans-serif;
     color: #D90429;
     font-weight: 600;
-    text-align: center;
+/*     text-align: center; */
     font-size: 2.3rem;
     text-decoration: underline;
     background-image: linear-gradient(to right,
