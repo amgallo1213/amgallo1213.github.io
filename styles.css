@@ -378,7 +378,8 @@ h3,
 
 @media only screen and (max-width: 480px) and (min-width: 320px) and (orientation: portrait) {
   skill {
-    text-size: 0.5rem;
+    text-size: 1.1rem;
+      padding: 5px;
     }
     #projects   {
         height: auto;
