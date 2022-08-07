@@ -386,7 +386,7 @@ h3,
   skill {
     text-size: 0.5rem;
     }
-    #projects   {
+/*     #projects   {
         height: auto;
     }
     .item {
@@ -395,5 +395,5 @@ h3,
     float: left;
     overflow: hidden;
     position: relative;
-    }
+    } */
 }
