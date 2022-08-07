@@ -384,13 +384,13 @@ h3,
 
 @media only screen and (max-width: 600px) {
   skill {
-    text-size: 0.9rem;
+    text-size: 0.7rem;
     }
     #projects   {
         height: 400px;
     }
     .item {
-    width: calc(94%/6);
+    width: calc(94%/1);
     margin: 1%;
     float: left;
     overflow: hidden;
