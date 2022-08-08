@@ -384,6 +384,9 @@ h3,
     #projects   {
         height: auto;
     }
+    #resume-list {
+        height: auto;
+    }
 /*     .item {
     width: calc(94%/1);
     margin: 1%;
