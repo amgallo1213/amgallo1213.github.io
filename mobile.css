@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Omega Sans';
+    src: url('fonts/OmegaSansRegular.eot');
+    src: url('fonts/OmegaSansRegular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OmegaSansRegular.woff2') format('woff2'),
+         url('fonts/OmegaSansRegular.woff') format('woff'),
+         url('fonts/OmegaSansRegular.ttf')  format('truetype'),
+         url('fonts/OmegaSansRegular.svg#Omega Sans') format('svg');
+}
+
+
+.background {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a   {
+    text-decoration: none;
+}
+
+
+
+
+#left-col-main  {
+    height: 28.75%;
+    width: 100%;
+    background-color: #E16030;
+}
+
+#mid-col-main    {
+    height: 2.5%;
+    /* width: 100%; */
+    background-color: #CDD6D0;
+}
+
+#right-col-main  {
+    height: 68.75%;
+    background-color: #F4845F;
+}
+
+
+#bubble-1   {
+    background-color: #D6A99A;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 70px;
+    position: fixed;
+}
+
+#bubb-1-text    {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #E16030;
+    font-size: 0.9rem;
+    position: absolute;
+    font-family: 'Omega Sans', sans-serif;
+}
+
+#bubble-2   {
+    background-color: #F7B267;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: fixed;
+}
+
+#bubb-2-text    {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #E16030;
+    font-size: 0.9rem;
+    position: absolute;
+    font-family: 'Omega Sans', sans-serif;
+}
+
+#bubble-3   {
+    background-color: #F27059;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 100px;
+    position: fixed;
+}
+
+#bubb-3-text    {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #D6A99A;
+    font-size: 0.9rem;
+    position: absolute;
+    font-family: 'Omega Sans', sans-serif;
+}
