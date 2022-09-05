@@ -22,8 +22,15 @@ a   {
 
 h1  {
     color: #CDD6D0;
-    margin: 20px 0 0 50px;
+    margin: 20px 0 0 30px;
     font-size: 3.25rem;
+    font-family: 'Omega Sans', sans-serif;
+}
+
+h2  {
+    margin-top: -20px;
+    margin-left: 70px;
+    color: #D6CBC1;
     font-family: 'Omega Sans', sans-serif;
 }
 
@@ -48,8 +55,8 @@ h1  {
 
 #bubble-1   {
     background-color: #D6A99A;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 20px;
@@ -58,47 +65,47 @@ h1  {
 
 #bubb-1-text    {
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #E16030;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 }
 
 #bubble-2   {
     background-color: #F7B267;
-    height: 100px;
-    width:100px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 100px;
-    position: fixed;
-}
-
-#bubb-2-text    {
-    margin-left: 20px;
-    margin-top: 50px;
-    color: #E16030;
-    font-size: 1.3rem;
-    position: absolute;
-    font-family: 'Omega Sans', sans-serif;
-}
-
-#bubble-3   {
-    background-color: #F27059;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 150px;
     position: fixed;
 }
 
+#bubb-2-text    {
+    margin-left: 20px;
+    margin-top: 40px;
+    color: #E16030;
+    font-size: 1.2rem;
+    position: absolute;
+    font-family: 'Omega Sans', sans-serif;
+}
+
+#bubble-3   {
+    background-color: #F27059;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 300px;
+    position: fixed;
+}
+
 #bubb-3-text    {
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
     color: #D6A99A;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 } 
