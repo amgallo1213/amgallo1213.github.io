@@ -23,7 +23,7 @@ a   {
 h1  {
     color: #CDD6D0;
     margin: 20px 0 0 50px;
-    font-size: 3.75rem;
+    font-size: 3.25rem;
     font-family: 'Omega Sans', sans-serif;
 }
 
@@ -35,69 +35,70 @@ h1  {
 
 #mid-col-main    {
     height: 2.5%;
-    /* width: 100%; */
+    width: 100%; 
     background-color: #CDD6D0;
 }
 
 #right-col-main  {
     height: 68.75%;
+    width: 100%;
     background-color: #F4845F;
 }
 
 
 #bubble-1   {
     background-color: #D6A99A;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
     position: fixed;
 }
 
 #bubb-1-text    {
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
     color: #E16030;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 }
 
 #bubble-2   {
     background-color: #F7B267;
-    height: 150px;
-    width:150px;
+    height: 100px;
+    width:100px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 150px;
+    margin-left: 100px;
     position: fixed;
 }
 
 #bubb-2-text    {
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
     color: #E16030;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 }
 
 #bubble-3   {
     background-color: #F27059;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 200px;
+    margin-left: 150px;
     position: fixed;
 }
 
 #bubb-3-text    {
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
     color: #D6A99A;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 } 
