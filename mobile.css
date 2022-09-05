@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: 'Omega Sans';
     src: url('fonts/OmegaSansRegular.eot');
     src: url('fonts/OmegaSansRegular.eot?#iefix') format('embedded-opentype'),
@@ -20,8 +20,12 @@ a   {
     text-decoration: none;
 }
 
-
-
+h1  {
+    color: #CDD6D0;
+    margin: 20px 0 0 50px;
+    font-size: 3.75rem;
+    font-family: 'Omega Sans', sans-serif;
+}
 
 #left-col-main  {
     height: 28.75%;
@@ -43,11 +47,11 @@ a   {
 
 #bubble-1   {
     background-color: #D6A99A;
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    margin-top: 5px;
-    margin-left: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
     position: fixed;
 }
 
@@ -62,11 +66,11 @@ a   {
 
 #bubble-2   {
     background-color: #F7B267;
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width:200px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 150px;
     position: fixed;
 }
 
@@ -81,11 +85,11 @@ a   {
 
 #bubble-3   {
     background-color: #F27059;
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 350px;
     position: fixed;
 }
 
@@ -96,4 +100,6 @@ a   {
     font-size: 0.9rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
-} */
+} 
+
+
