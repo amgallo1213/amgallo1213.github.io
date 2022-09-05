@@ -47,8 +47,8 @@ h1  {
 
 #bubble-1   {
     background-color: #D6A99A;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 50px;
@@ -59,15 +59,15 @@ h1  {
     margin-left: 10px;
     margin-top: 10px;
     color: #E16030;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 }
 
 #bubble-2   {
     background-color: #F7B267;
-    height: 200px;
-    width:200px;
+    height: 150px;
+    width:150px;
     border-radius: 50%;
     margin-top: 10px;
     margin-left: 150px;
@@ -78,18 +78,18 @@ h1  {
     margin-left: 10px;
     margin-top: 10px;
     color: #E16030;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 }
 
 #bubble-3   {
     background-color: #F27059;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     margin-top: 10px;
-    margin-left: 350px;
+    margin-left: 200px;
     position: fixed;
 }
 
@@ -97,7 +97,7 @@ h1  {
     margin-left: 10px;
     margin-top: 10px;
     color: #D6A99A;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     position: absolute;
     font-family: 'Omega Sans', sans-serif;
 } 
