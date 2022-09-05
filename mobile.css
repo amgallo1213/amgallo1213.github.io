@@ -49,7 +49,8 @@ h2  {
 }
 
 #right-col-main  {
-    height: 78%;
+    height: 500px;
+/*     height: 78%; */ this did not work
 /*     height: auto; */ this did not work
     width: 100%;
     background-color: #F4845F;
@@ -110,7 +111,7 @@ h2  {
 }
 
 #bubb-3-text    {
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: 50px;
     color: #D6A99A;
     font-size: 1.2rem;
