@@ -49,10 +49,10 @@ h2  {
 }
 
 #right-col-main  {
-    height: 500px;
+    height: 700px;
 /*     height: 78%; */ this did not work
 /*     height: auto; */ this did not work
-    width: 100%;
+    width: auto;
     background-color: #F4845F;
 }
 
