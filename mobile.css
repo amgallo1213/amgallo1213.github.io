@@ -49,8 +49,8 @@ h2  {
 }
 
 #right-col-main  {
-    height: 780px;
-/*     height: 78%; */ this did not work
+/*     height: 780px; */
+       height: 82%; 
 /*     height: auto; */ this did not work
     width: 100%;
     background-color: #F4845F;
