@@ -49,10 +49,6 @@ h2  {
 }
 
 #right-col-main  {
-/*     height: 780px; */
-/*        height: 82%;  */
-/*     height: auto; */ 
-/*     height: 100%; */
     height: 480px;
     width: 100%;
     background-color: #F4845F;
@@ -136,3 +132,90 @@ h2  {
     }
 }
 
+
+
+.home-nav-bubb  {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 120px;
+    background-color: #F4845F;
+    animation: bounce 8s ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.about-nav-bubb {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 80px;
+    background-color: #F27059;
+    animation: bounce 6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.connect-nav-bubb   {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 75px;
+    margin-top: 80px;
+    background-color: #D6A99A;
+/*     animation: bounce 10s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite; */
+}
+
+.projects-nav-bubb  {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 80px;
+    background-color: #F7B267;
+    animation: bounce 7s;
+    /* animation-delay: 7s; */
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.home-nav-text  {
+    color: #E16030;
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.about-nav-text {
+    color: #CDD6D0;
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.connect-nav-text   {
+    color: #E16030;
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.projects-nav-text  {
+    color: #E16030;
+    font-size: 1.2rem;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+@keyframes bounce {
+    from { transform: translate3d(165px, 0, 0);  }
+    to   { transform: translate3d(-120px, 0, 0); }
+}
