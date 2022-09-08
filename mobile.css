@@ -149,7 +149,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 10px;
     background-color: #F27059;
     animation: bounce 6s;
@@ -164,9 +164,9 @@ h2  {
     margin-left: 70px;
     margin-top: 10px;
     background-color: #D6A99A;
-/*     animation: bounce 10s;
+    animation: bounce 10s;
     animation-direction: alternate;
-    animation-iteration-count: infinite; */
+    animation-iteration-count: infinite; 
 }
 
 .projects-nav-bubb  {
@@ -215,7 +215,7 @@ h2  {
 }
 
 @keyframes bounce {
-    from { transform: translate3d(50px, 0, 0);  }
+    from { transform: translate3d(40px, 0, 0);  }
     to   { transform: translate3d(-20, 0, 0); }
 }
 
@@ -235,7 +235,7 @@ h2  {
 }
 
 #right-col-about  {
-    height: 640px;
+    height: 540px;
     width: 100%;
     background-color: #F27059;
 }
