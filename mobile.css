@@ -149,7 +149,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 70px;
+    margin-left: 40px;
     margin-top: 80px;
     background-color: #F27059;
     animation: bounce 6s;
@@ -161,7 +161,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 75px;
+    margin-left: 70px;
     margin-top: 80px;
     background-color: #D6A99A;
 /*     animation: bounce 10s;
@@ -173,7 +173,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 80px;
+    margin-left: 95px;
     margin-top: 80px;
     background-color: #F7B267;
     animation: bounce 7s;
@@ -215,8 +215,8 @@ h2  {
 }
 
 @keyframes bounce {
-    from { transform: translate3d(0, 60px, 0);  }
-    to   { transform: translate3d(0, -20px, 0); }
+    from { transform: translate3d(50px, 0, 0);  }
+    to   { transform: translate3d(-20, 0, 0); }
 }
 
 
@@ -241,7 +241,7 @@ h2  {
 }
 
 #about-me-div   {
-    height: 550px;
+    height: 650px;
     width: auto;
     margin-left: 20px;
 }
