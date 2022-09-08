@@ -52,7 +52,7 @@ h2  {
     height: 780px;
 /*     height: 78%; */ this did not work
 /*     height: auto; */ this did not work
-    width: auto;
+    width: 100%;
     background-color: #F4845F;
 }
 
