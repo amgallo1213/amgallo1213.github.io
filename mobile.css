@@ -138,7 +138,7 @@ h2  {
     width: 100px;
     border-radius: 50%;
     margin-left: 80px;
-    margin-top: 120px;
+    margin-top: 10px;
     background-color: #F4845F;
     animation: bounce 8s ease-in-out;
     animation-direction: alternate;
@@ -150,7 +150,7 @@ h2  {
     width: 100px;
     border-radius: 50%;
     margin-left: 40px;
-    margin-top: 80px;
+    margin-top: 10px;
     background-color: #F27059;
     animation: bounce 6s;
     animation-direction: alternate;
@@ -162,7 +162,7 @@ h2  {
     width: 100px;
     border-radius: 50%;
     margin-left: 70px;
-    margin-top: 80px;
+    margin-top: 10px;
     background-color: #D6A99A;
 /*     animation: bounce 10s;
     animation-direction: alternate;
@@ -174,7 +174,7 @@ h2  {
     width: 100px;
     border-radius: 50%;
     margin-left: 95px;
-    margin-top: 80px;
+    margin-top: 10px;
     background-color: #F7B267;
     animation: bounce 7s;
     /* animation-delay: 7s; */
@@ -235,7 +235,7 @@ h2  {
 }
 
 #right-col-about  {
-    height: 540px;
+    height: 640px;
     width: 100%;
     background-color: #F27059;
 }
