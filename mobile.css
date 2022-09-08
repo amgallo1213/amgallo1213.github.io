@@ -215,27 +215,29 @@ h2  {
     margin-left: 10px;
 }
 
-@keyframes bounce {
-    from { transform: translate3d(165px, 0, 0);  }
-    to   { transform: translate3d(-120px, 0, 0); }
+/* @keyframes bounce {
+    from { transform: translate3d(65px, 0, 0);  }
+    to   { transform: translate3d(-20px, 0, 0); }
 }
-
+ */
 
 /* about me page */
 
 #left-col-about  {
-    height: 28.75%;
+    height: 15%;
     width: 100%;
     background-color: #E16030;
 }
 
 #mid-col-about    {
-    height: 2.5%;
+    height: 3%;
+    width: 100%;
     background-color: #CDD6D0;
 }
 
 #right-col-about  {
-    height: 68.75%;
+    height: 480px;
+    width: 100%;
     background-color: #F27059;
 }
 
