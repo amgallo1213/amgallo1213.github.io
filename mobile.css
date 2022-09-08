@@ -137,7 +137,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 80px;
+    margin-left: 20px;
     margin-top: 10px;
     background-color: #F4845F;
     animation: bounce 8s ease-in-out;
@@ -241,7 +241,7 @@ h2  {
 }
 
 #about-me-div   {
-    height: 650px;
+    height: 550px;
     width: auto;
     margin-left: 20px;
 }
