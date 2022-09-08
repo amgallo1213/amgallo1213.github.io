@@ -133,7 +133,6 @@ h2  {
 }
 
 
-
 .home-nav-bubb  {
     height: 100px;
     width: 100px;
@@ -215,11 +214,11 @@ h2  {
     margin-left: 10px;
 }
 
-/* @keyframes bounce {
-    from { transform: translate3d(65px, 0, 0);  }
-    to   { transform: translate3d(-20px, 0, 0); }
+@keyframes bounce {
+    from { transform: translate3d(0, 60px, 0);  }
+    to   { transform: translate3d(0, -20px, 0); }
 }
- */
+
 
 /* about me page */
 
@@ -236,7 +235,7 @@ h2  {
 }
 
 #right-col-about  {
-    height: 480px;
+    height: 540px;
     width: 100%;
     background-color: #F27059;
 }
@@ -244,7 +243,7 @@ h2  {
 #about-me-div   {
     height: 550px;
     width: auto;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .about-me-text  {
