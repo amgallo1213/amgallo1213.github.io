@@ -149,7 +149,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 10px;
     background-color: #F27059;
     animation: bounce 6s;
@@ -173,7 +173,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 95px;
+    margin-left: 25px;
     margin-top: 10px;
     background-color: #F7B267;
     animation: bounce 7s;
@@ -307,4 +307,45 @@ h2  {
     margin-left: 40px;
     font-size: 1.3rem;
     text-decoration: none;
+}
+
+/* Project page */
+
+#left-col-project  {
+    height: 15%;
+    width: 100%;
+    background-color: #E16030;
+}
+
+#mid-col-project    {
+    height: 3%;
+    width: 100%;
+    background-color: #CDD6D0;
+}
+
+#right-col-project  {
+    height: 540px;
+    width: 100%;
+    background-color: #F7B267;
+}
+
+.projects   {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+
+#card-1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#card-2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#card-3 {
+    margin-top: 20px;
+    margin-left: 20px;
 }
