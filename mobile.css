@@ -161,8 +161,8 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-top: 80px;
-    margin-left: 120px;
+    margin-top: 10px;
+    margin-left: 130px;
     background-color: #D6A99A;
     animation: bounce 10s;
     animation-direction: alternate;
@@ -173,8 +173,8 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-top: 80px;
-    margin-left: 160px;
+    margin-top: 10px;
+    margin-left: 180px;
     background-color: #F7B267;
     animation: bounce 7s;
     /* animation-delay: 7s; */
@@ -203,7 +203,7 @@ h2  {
     font-size: 1.2rem;
     position: absolute;
     margin-top: 35px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .projects-nav-text  {
@@ -211,7 +211,7 @@ h2  {
     font-size: 1.2rem;
     position: absolute;
     margin-top: 35px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 @keyframes bounce {
