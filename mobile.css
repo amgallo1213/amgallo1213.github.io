@@ -150,7 +150,7 @@ h2  {
     width: 100px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: 20px;
     background-color: #F27059;
     animation: bounce 6s;
     animation-direction: alternate;
@@ -162,7 +162,7 @@ h2  {
     width: 100px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: 20px;
     background-color: #D6A99A;
     animation: bounce 10s;
     animation-direction: alternate;
@@ -174,7 +174,7 @@ h2  {
     width: 100px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 30px;
     background-color: #F7B267;
     animation: bounce 7s;
     /* animation-delay: 7s; */
@@ -215,8 +215,8 @@ h2  {
 }
 
 @keyframes bounce {
-    from { transform: translate3d(40px, 0, 0);  }
-    to   { transform: translate3d(-20, 0, 0); }
+    from { transform: translateY(40px, 0, 0);  }
+    to   { transform: translateY(-20, 0, 0); }
 }
 
 
