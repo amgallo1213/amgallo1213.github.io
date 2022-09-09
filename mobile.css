@@ -149,7 +149,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-top: -20px;
+    margin-top: -40px;
     margin-left: 130px;
     background-color: #F27059;
     animation: bounce 6s;
@@ -161,7 +161,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-top: -20px;
+    margin-top: -40px;
     margin-left: 130px;
     background-color: #D6A99A;
     animation: bounce 10s;
@@ -173,7 +173,7 @@ h2  {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-top: -20px;
+    margin-top: -60px;
     margin-left: 230px;
     background-color: #F7B267;
     animation: bounce 7s;
