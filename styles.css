@@ -43,8 +43,8 @@ h5  {
 }
 
 .home-nav-bubb  {
-    height: 130px;
-    width: 130px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     margin-top: 150px;
     margin-left: 120px;
@@ -55,8 +55,8 @@ h5  {
 }
 
 .about-nav-bubb {
-    height: 130px;
-    width: 130px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     margin-top: 70px;
     margin-left: 120px;
@@ -67,8 +67,8 @@ h5  {
 }
 
 .connect-nav-bubb   {
-    height: 130px;
-    width: 130px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     margin-top: 75px;
     margin-left: 120px;
@@ -79,8 +79,8 @@ h5  {
 }
 
 .projects-nav-bubb  {
-    height: 130px;
-    width: 130px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     margin-top: 80px;
     margin-left: 120px;
@@ -93,7 +93,7 @@ h5  {
 
 .home-nav-text  {
     color: #E16030;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     position: absolute;
     margin-top: 45px;
     margin-left: 35px;
@@ -101,7 +101,7 @@ h5  {
 
 .about-nav-text {
     color: #CDD6D0;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     position: absolute;
     margin-top: 45px;
     margin-left: 35px;
@@ -109,7 +109,7 @@ h5  {
 
 .connect-nav-text   {
     color: #E16030;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     position: absolute;
     margin-top: 45px;
     margin-left: 25px;
@@ -117,7 +117,7 @@ h5  {
 
 .projects-nav-text  {
     color: #E16030;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     position: absolute;
     margin-top: 45px;
     margin-left: 30px;
