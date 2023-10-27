@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: "Athena Regular";
+    src: url('fonts/Athena-Regular-PERSONAL-USE-ONLY.ttf');
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+body   {
+    color: #412234;
+    background-color: #EAD7D7;
+}
+
+h1  {
+    font-family: "Athena Regular";
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+#link-side {
+    margin-top: 450px;
+}
+
+.link {
+    font-family: "Athena Regular";
+    list-style: none;
+    font-size: 3.25rem;
+    text-align: right;
+    margin-right: 350px;
+}
+
+a   {
+    text-decoration: none;
+    color: #412234;
+}
+a:hover {
+    color: #B49FCC;
+}
+
+
+
+#about-side {
+    margin-top: 200px;
+    padding: 20px;
+}
+
+#spacer {
+    height: 50px;
+}
+
+/* #how    {
+    writing-mode: vertical-rl; 
+    text-orientation: sideways-right;
+} */
+
+
+
