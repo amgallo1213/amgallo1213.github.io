@@ -70,5 +70,9 @@ a:hover {
     margin-top: 40px;
 }
 
-
+@media (max-width: 480px) {
+    h1 {
+        font-size: 6.5rem;
+    }
+}
 
