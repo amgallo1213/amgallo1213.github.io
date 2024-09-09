@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* font-family: "Oswald", sans-serif; */
+
+.grid {
+    /* display: grid;
+    grid-template-columns: repeat(8, 1fr); */
+    background-image: url("images/pexels-markusspiske-1343537.jpg");
+}
+
+.grid h1    {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 24px;
+}
+
+.grid h1 span:nth-child(1)   { /* SHE */
+    grid-column: 7/ 8;
+    grid-row: 1;
+    font-size: 3rem;
+    text-align: left;
+}
+.grid h1 span:nth-child(2)   {  /* WORE */
+    grid-column: 8 / 10;
+    grid-row: 1;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.grid h1 span:nth-child(3)   {  /* L */
+    grid-column: 2;
+    grid-row: 4;
+    font-size: 8rem;
+}
+.grid h1 span:nth-child(4)   {  /* E */
+    grid-column: 4;
+    grid-row: 3;
+}
+.grid h1 span:nth-child(5)   {  /* M */
+    grid-column: 7;
+    grid-row: 2;
+    /* font-size: 6rem; */
+}
+.grid h1 span:nth-child(6)   {  /* O */
+    grid-column: 8;
+    grid-row: 2;
+    font-size: 2.5rem;
+    text-align: right;
+}
+.grid h1 span:nth-child(7)   {  /* N */
+    grid-column: 10;
+    grid-row: 3;
+    /* font-size: 6.8rem; */
+    font-size: 8.5rem;
+}
+
+.grid h1 span:nth-child(8)   {  /* link backward*/
+    grid-column: 1;
+    grid-row: 8;
+    font-weight: 700;
+}
+
+.grid h1 span:nth-child(9)   {  /* link forward */
+    grid-column: 12;
+    grid-row: 8;
+    
+}
+.grid h1 a  {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
