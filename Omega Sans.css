@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Omega Sans';
-    src: url('fonts/OmegaSansRegular.eot');
-    src: url('fonts/OmegaSansRegular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/OmegaSansRegular.woff2') format('woff2'),
-         url('fonts/OmegaSansRegular.woff') format('woff'),
-         url('fonts/OmegaSansRegular.ttf')  format('truetype'),
-         url('fonts/OmegaSansRegular.svg#Omega Sans') format('svg');
-}
