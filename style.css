@@ -2,243 +2,276 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Oswald", sans-serif;
 }
 
-h1  {
-    text-decoration: underline;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0;
-    font-size: 11rem;
-    /* font-size: 8rem; */
-}
-
-h2  {
-    font-size: 6rem;
-    text-transform: uppercase;
-    text-align: right;
-    margin-top: -30px;
-}
-
-h3  {
-    margin-top: -20px;
-}
-
-p   {
-    font-size: 20px;
-}
-
-a   {
-    text-decoration: none;
-    color: black;
+body    {
+    background-color: whitesmoke;
 }
 
 li  {
     list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
+a   {
+    text-decoration: none;
+    /* color: inherit; */
 }
 
-.parent {
-    height: 100vh;
+.container  {
     display: grid;
-    grid: auto 1fr auto / 250px 1fr 250px;
-    gap: 8px;
+    /* grid-template-columns: 50vw 50vw; */
+    grid-template-columns: 70vw 30vw;
+    grid-template-rows: 50vh 50vh;
+    padding: 12px;
 }
 
-header, main, footer,
-.left-sidebar, .right-sidebar   {
-    padding: 10px;
+.skills, .projects   {
+    font-family: "Roboto", sans-serif;
+    color: #FF1493;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 12px;
+    text-align: right;
+    writing-mode: vertical-rl;
+    animation-name: slide-in; 
+    animation-duration: 3s;
 }
 
-header  {
-    grid-column: 1 / 4;
-}
 
-.left-sidebar   {
-    grid-column: 1 / 2;
-    background-color: lightgrey;
-}
 
-.ls-h3  {
-    color: whitesmoke;
-    font-size: 2rem;
-    font-weight: 900;
-    margin-top: 60px;
-    margin-left: 24px;
-}
+/* ------------------------------- GRID AREA ONE --------------------- */
 
-hr  {
-    margin-left: 24px;
-    margin-top: 4px;
-    border: 1px solid whitesmoke;
-    max-width: 95%;
-}
+.grid-area-1  {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    animation-name: drop-down; 
+    animation-duration: 2s;
 
-.all-projects   {
-    margin-left: 32px;
-}
-
-.list   {
-    margin-top: 16px;
-}
-
-main    {
-    grid-column: 2 / 3;
-    border: 24px solid black;
-    /* background-image: url("images/Screenshot 2025-06-13 at 2.06.34 PM.png"); */
-    /* background-image: url("https://images.pexels.com/photos/2167395/pexels-photo-2167395.jpeg?auto=compress&cs=tinysrgb&w=800") */
-    /* background-repeat: no-repeat; */
-    background-size: cover;
-    /* filter: grayscale(100%); */
-}
-
-.right-sidebar  {
-    grid-column: 3 / 4;    
-}
-
-.rs-p   {
-    font-family:'Times New Roman', Times, serif !important;
-    line-height: 25px;
-}
-
-button  {
-    border: 2px solid black;
-    height: 56px;
-    padding: 16px 24px;
-    color: black;
-    margin-top: 16px;
-}
-
-footer  {
-    grid-column: 1 / 4;
-    border: 1px solid hotpink;
-}
-
-.header-child   {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.contact-box    {
-    height: 150px;
-    width: 400px;
-    border: 2px solid black;
-}
-
-.contact    {
-    text-align: center;
-    margin-top: 25px;
 }
 
 .name   {
-    font-style: italic;
-    font-family: serif;
+    padding-top: 60px;
 }
 
-.blah   {
+h1   {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+    font-family: "Bodoni Moda", serif;
+    font-size: 10rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    place-self: center;
+    /* text-align: left; */
+    padding-top: 60px;
+    line-height: 120px;
+    animation-name: drop-down; 
+    animation-duration: 4s;
+
+    /* &&:hover    {
+        transform: scale(-1,1)
+    } */
+}
+
+/* .letters {
+    display: flex;
+    flex-direction: row;
+    font-family: "Bodoni Moda", serif;
+    font-size: 5rem;
+    letter-spacing: 4px;
+} */
+
+.letter-span:hover    {
+    transform: scale(1,-1);
+}
+
+/* ------------------------------- GRID AREA TWO --------------------- */
+
+
+.grid-area-2    {
+    border-bottom: 1px solid black;
+    animation-name: drop-down; 
+    animation-duration: 2s;
+}
+
+.skills-list    {
+    text-align: right;
+    padding: 40px 80px 0 100px;
+    animation-name: drop-down; 
+    animation-duration: 4s;
+}
+
+
+/* ------------------------------- GRID AREA THREE --------------------- */
+
+
+.grid-area-3    {
+    border-right: 1px solid black;
+    animation-name: drop-down; 
+    animation-duration: 2s;
+}
+
+.accordian-div  {
+    padding-top: 16px;
+    margin-left: 80px;
+    animation-name: slide-up;
+    animation-duration: 2s;
+}
+
+details {
+    width: 60%;
+    border-bottom: 1px solid black;
+}
+
+summary, .summary-link {
+    font-weight: 700;
+    padding: 4px;
+    letter-spacing: 2px;
+    font-family: "Bodoni Moda", serif;
+    &&:hover    {
+        cursor: pointer;
+        color: #FF1493;
+        transform: translateX(6px);
+    }
+}
+
+summary::marker {
+    content: " ";
+}
+
+.accordian-details  {
+    padding: 8px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.accordian-link    {
+    font-weight: 400;
+    /* padding: 8px; */
+    font-size: 0.8rem;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    &&:hover    {
+        cursor: pointer;
+        color: #FF1493;
+    }
+}
+
+
+
+
+/* ------------------------------- GRID AREA FOUR --------------------- */
+
+
+.grid-area-4    {
+    /* animation-name: drop-down;  */
+    animation-name: slide-in-2;
+    animation-duration: 4s;
+    background-image: url("images/discoDino.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.discoDino  {
+    font-family: "Roboto", sans-serif;
+    color: #FF1493;
+    font-weight: 400;
+    font-size: 1.15rem;
+    padding: 16px;
     text-align: right;
 }
 
 
 
-footer  {
-    display: flex;
-    flex-direction: row;
+
+
+
+/* ------------------------------- ANIMATIONS --------------------- */
+
+
+@keyframes drop-down    {
+    from {
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
-.boxes  {
-    height: 150px;
-    width: 150px;
-
+@keyframes slide-up    {
+    from {
+        transform: translateY(-10vh);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
-.box1   {
-    background-color: #A8BDBF;
-    margin: 16px;
+@keyframes slide-in   {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
-.box2   {
-    background-color: #C5D7D9;
-    margin: 16px;
+@keyframes slide-in-2   {
+    from {
+        transform: translateX(500px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
-.box3   {
-    background-color: #3F7373;
-    margin: 16px;
-}
 
-.box4   {
-    background-color: #768C45;
-    margin: 16px;
-}
 
-.box5   {
-    background-color: #F2F1F0;
-    margin: 16px;
-}
+
+
+
 
 @media (max-width: 768px) {
-    .parent {
-        grid: repeat(5, 1fr) / 1fr;
-    }
+    .container  {
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70vh; */
 
-    header, main, footer, .left-sidebar, .right-sidebar {
-        grid-column: 1/2;
-    }
-
-    main {
-        margin-top: 20px;
-    }
-
-    .header-child   {
         display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .contact-box    {
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-
-    .contact    {
-        display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        margin-top: 55px;
     }
-    .contact-box-word   {
-        padding-left: 15px;
+    h1 {
+        font-size: 4.4rem;
+        line-height: 54px;
+        padding-bottom: 16px;
     }
-
-    h1  {
-        line-height: 150px;
-        font-size: 8rem;
+    .grid-area-1, .grid-area-2, .grid-area-3    {
+        border-bottom: 1px solid black;
+        border-right: none;
+        padding-bottom: 16px;
     }
-
-    h2  {
-        line-height: 80px;
-        text-align: center;
-        margin-top: 20px;
-        font-size: 4.75rem;
+    .grid-area-1    {
+        height: 30vh;
     }
-
-    .all-projects   {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .grid-area-4    {
+        height: 50vh;
+        width: 100%;
+    }
+    .skills, .projects  {
+        padding-right: 12px;
     }
 
-    .list   {
-        padding: 10px;
-    }
 }
