@@ -104,7 +104,8 @@ main    {
 
 .rs-p   {
     font-family:'Times New Roman', Times, serif !important;
-    line-height: 25px;
+    line-height: 20px;
+    padding-top: 0px;
 }
 
 button  {
